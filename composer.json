@@ -1,22 +1,24 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "f9webltd/laravel-health-opcache",
+    "description": "A custom check for Spatie's Laravel Health - ensure Opcache is running and enabled",
     "keywords": [
-        ":vendor_name",
-        "laravel",
-        ":package_slug"
+        "laravel health",
+        "ohdearapp custom check",
+        "php opcache",
+        "laravel health"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/f9webltd/laravel-health-opcache",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Rob Allport",
+            "email": "rob@f9web.co.uk",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.0",
+        "spatie/laravel-health": "^1.30",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "^10.0||^11.0"
     },
