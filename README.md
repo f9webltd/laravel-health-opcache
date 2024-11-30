@@ -40,7 +40,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Rob Allport](https://github.com/ultrono) for [F9 Web Ltd](https://github.com/ultrono](https://github.com/f9webltd)
+- [Rob Allport](https://github.com/ultrono) for [F9 Web Ltd](https://github.com/f9webltd)
 
 ## License
 
