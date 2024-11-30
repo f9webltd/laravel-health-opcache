@@ -1,7 +1,7 @@
 # Opcache Custom Check for Spatie's Laravel Health
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/f9webltd/laravel-health-opcache)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/f9webltd/laravel-health-opcache)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/f9webltd/laravel-health-opcache.svg?style=flat-square)](https://packagist.org/packages/f9webltd/laravel-health-opcache)
+[![Total Downloads](https://img.shields.io/packagist/dt/f9webltd/laravel-health-opcache.svg?style=flat-square)](https://packagist.org/packages/f9webltd/laravel-health-opcache)
 
 This is a custom check for Spatie's Laravel Health, to ensure Opcache is running and enabled.
 
