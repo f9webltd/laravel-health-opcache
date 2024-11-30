@@ -25,6 +25,6 @@ class OpCache extends Check
 
     private function checkOpcacheIsRunning(): bool
     {
-        return function_exists('opcache_get_status') && is_array(opcache_get_status())
+        return function_exists('opcache_get_status') && is_array(opcache_get_status());
     }
 }
