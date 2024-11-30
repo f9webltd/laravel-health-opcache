@@ -18,11 +18,11 @@ composer require f9webltd/laravel-health-opcache
 ```php
 // typically, in a service provider
 
-use F9Web\Health\Checks\OpCache;
+use F9Web\Health\Checks\OpCacheCheck;
 use Spatie\Health\Facades\Health;
 
 Health::checks([
-    OpCache::new(),
+    OpCacheCheck::new(),
 ]);
 ```
 
