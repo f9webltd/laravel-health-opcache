@@ -10,7 +10,7 @@ use Spatie\Health\Checks\Result;
 use function function_exists;
 use function is_array;
 
-class OpCache extends Check
+class OpCacheCheck extends Check
 {
     public function run(): Result
     {
