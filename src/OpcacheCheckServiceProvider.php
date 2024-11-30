@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace F9Web;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
