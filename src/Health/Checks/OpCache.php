@@ -7,6 +7,9 @@ namespace F9Web\Health\Checks;
 use Spatie\Health\Checks\Check;
 use Spatie\Health\Checks\Result;
 
+use function function_exists;
+use function is_array;
+
 class OpCache extends Check
 {
     public function run(): Result
@@ -22,7 +25,6 @@ class OpCache extends Check
 
     private function checkOpcacheIsRunning(): bool
     {
-        // @todo check Opcache is running
-        return true;
+        return function_exists('opcache_get_status') && is_array(opcache_get_status())
     }
 }
