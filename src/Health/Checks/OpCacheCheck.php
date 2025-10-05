@@ -19,10 +19,10 @@ class OpCacheCheck extends Check
         $result = Result::make();
 
         if (false === $this->checkOpcacheIsRunning()) {
-            return $result->failed('Running');
+            return $result->failed('Not running');
         }
 
-        return $result->ok()->shortSummary('Not running');
+        return $result->ok()->shortSummary('Running');
     }
 
     private function checkOpcacheIsRunning(): bool
